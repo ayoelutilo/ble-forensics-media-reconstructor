@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69,<75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ble-forensics-media-reconstructor"
+version = "0.1.0"
+description = "Simplified BLE snoop parsing and ATT chunk reconstruction toolkit."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "OSS Showcase Worker 5" }]
+keywords = ["ble", "forensics", "att", "reconstruction", "btsnoop"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<8.3"]
+
+[project.scripts]
+ble-reconstruct = "ble_forensics_media_reconstructor.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
