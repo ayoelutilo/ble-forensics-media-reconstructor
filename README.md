@@ -68,3 +68,5 @@ ble-reconstruct reconstruct tests/fixtures/sample_capture.btsn --output-dir out
 ```bash
 pytest
 ```
+
+- Changelog: minor updates.
