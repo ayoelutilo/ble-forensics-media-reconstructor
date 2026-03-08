@@ -44,3 +44,5 @@ Trade-offs:
 - Combined artifact is a raw concatenation of chunk binaries; container-aware reconstruction is out of scope.
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
