@@ -76,3 +76,5 @@ def parse_capture_file(path: str | Path) -> list[SnoopRecord]:
 
     capture_path = Path(path)
     return parse_capture_bytes(capture_path.read_bytes())
+
+# Refinement.
