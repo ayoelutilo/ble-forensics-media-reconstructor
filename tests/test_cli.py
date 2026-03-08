@@ -66,5 +66,3 @@ def test_cli_missing_input_file_returns_error_code() -> None:
     )
 
     assert exit_code == 2
-
-# Refinement.

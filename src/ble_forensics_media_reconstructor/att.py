@@ -98,5 +98,3 @@ def extract_chunk_fragments(events: Iterable[ATTEvent], *, strict: bool = False)
             if strict:
                 raise
     return fragments
-
-# Refinement.

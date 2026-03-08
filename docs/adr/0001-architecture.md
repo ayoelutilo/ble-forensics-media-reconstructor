@@ -42,7 +42,3 @@ Trade-offs:
 - Parser intentionally supports a simplified capture format, not full btsnoop variants.
 - ATT decoding is scoped to a subset of opcodes.
 - Combined artifact is a raw concatenation of chunk binaries; container-aware reconstruction is out of scope.
-
-- Changelog: minor updates.
-
-- Changelog: minor updates.

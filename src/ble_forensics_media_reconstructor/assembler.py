@@ -101,5 +101,3 @@ def assemble_chunks(fragments: Iterable[ChunkFragment]) -> dict[int, ChunkAssemb
         chunk_id: assemble_fragments(chunk_fragments, chunk_id=chunk_id)
         for chunk_id, chunk_fragments in sorted(grouped.items())
     }
-
-# Refinement.
