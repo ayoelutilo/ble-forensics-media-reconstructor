@@ -78,3 +78,5 @@ class ChunkAssembly:
             "gap_map": self.gap_map,
             "fragment_count": self.fragment_count,
         }
+
+# Refinement.
