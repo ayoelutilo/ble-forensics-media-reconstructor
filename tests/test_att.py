@@ -24,3 +24,5 @@ def test_chunk_extraction_strict_mode_fails_on_malformed_fragment() -> None:
 
     with pytest.raises(ATTDecodeError, match="value too short"):
         extract_chunk_fragments(events, strict=True)
+
+# Refinement.
