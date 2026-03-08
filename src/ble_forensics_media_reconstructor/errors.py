@@ -7,3 +7,5 @@ class ParseError(ValueError):
 
 class ATTDecodeError(ValueError):
     """Raised when ATT payload decoding fails."""
+
+# Refinement.
