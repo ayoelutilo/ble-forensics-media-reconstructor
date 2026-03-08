@@ -81,3 +81,5 @@ def write_reconstruction_artifacts(
     manifest_path = destination / "reconstruction_report.json"
     write_json(manifest_path, manifest)
     return manifest_path, manifest
+
+# Refinement.
