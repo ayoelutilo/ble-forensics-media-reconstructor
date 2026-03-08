@@ -25,3 +25,5 @@ def test_parse_rejects_bad_magic() -> None:
 def test_parse_rejects_truncated_payload() -> None:
     with pytest.raises(ParseError, match="Truncated payload"):
         parse_capture_file(FIXTURES / "malformed_truncated_payload.btsn")
+
+# Refinement.
