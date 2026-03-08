@@ -28,3 +28,5 @@ def test_reconstruction_artifacts_are_written(tmp_path: Path) -> None:
     assert (tmp_path / "chunk_0001.report.json").exists()
     assert (tmp_path / "reconstructed_media.bin").exists()
     assert manifest["overall_completeness"] == 1.0
+
+# Refinement.
