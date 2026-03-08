@@ -45,3 +45,5 @@ def test_conflicting_total_length_rejected() -> None:
 
     with pytest.raises(ValueError, match="Conflicting total_length"):
         assemble_fragments(fragments, chunk_id=9)
+
+# Refinement.
