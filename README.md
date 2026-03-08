@@ -70,3 +70,5 @@ pytest
 ```
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
